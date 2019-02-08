@@ -19,18 +19,33 @@ a:hover {
   max-width: 720px;
 }
 
+h1 {
+	font-family: 'Bitter', serif;
+	color: #ffffff;
+}
+
 .header {
-  margin-bottom: 48px;
-  border: 4px;
+  border: 0.125px;
   padding: .25rem;
   background: black;
   max-width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+img {
+  display: block;
+  height: auto;
+  width: 100%;
 }
 
 .main-nav-list {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: flex;
 }
 
 .main-nav-item {
