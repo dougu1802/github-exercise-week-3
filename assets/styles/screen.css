@@ -13,6 +13,8 @@ a:hover {
   color: #000;
 }
 
+/*-------- Header --------*/
+
 .container {
   margin: 0 auto;
   padding: .75rem;
@@ -35,18 +37,15 @@ h1 {
   
 }
 
-img {
-  display: block;
-  height: auto;
-  width: 100%;
-}
-
 .main-nav-list {
   list-style: none;
   margin: 0;
   padding: 0;
   padding-right: 1rem;
   display: flex;
+  font-weight: lighter;
+  font-style: italic;
+  font-size: 0.812rem;
 }
 
 .main-nav-item {
@@ -58,17 +57,42 @@ img {
   text-decoration: none;
  }
 
- .bar {
-  border-top: 1px solid black;
-  max-width: 100%;
+ /*------ Body -------*/
+
+img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+
+ .firstParagraph {
+  font-weight: bold;
+ }
+
+ .secondParagraph {
+  padding-bottom: 1rem;
  }
 
  p {
   max-width: 450px;
   margin: 0 auto;
-  padding-bottom: 1rem;
-  padding-top: 1.5rem;
+  padding: 1rem;
  }
+
+ /*------ Footer -------*/
+
+ .bar {
+  border-top: 2px solid black;
+  max-width: 100%;
+ }
+
+ .footer {
+  padding-bottom: 0.25rem;
+  max-width:450px;
+  padding-left: 1rem;
+ }
+
+/* ----- MEDIA QUERY ----- */
 
  @media screen and (min-width: 640px){
   .header {
@@ -79,6 +103,7 @@ img {
   
   .main-nav-list {
     display: flex;
+    font-size: 1rem;
   }
 
   p {
@@ -88,6 +113,10 @@ img {
   padding-top: 1.5rem;
  }
 
+.footer {
+  max-width: 600px;
+  padding-left: 3.90rem;
+}
 
 
 
