@@ -83,8 +83,9 @@ img {
 
  .gallery {
   display: grid;
-  grid-gap: .25rem;
-  grid-template-columns: repeat(2,1fr)
+  grid-gap: .50rem;
+  grid-template-columns: repeat(2,1fr);
+  padding-bottom: 3rem;
 }
 
  /*------ Footer -------*/
@@ -128,8 +129,10 @@ img {
 
 .gallery {
   display: grid;
-  grid-gap: .25rem;
-  grid-template-columns: repeat(3,1fr)
+  grid-gap: 1rem;
+  grid-template-columns: repeat(3,1fr);
+  padding-bottom: 3rem;
+}
 }
 
 
