@@ -89,8 +89,9 @@ img {
  .gallery {
   display: grid;
   grid-gap: .50rem;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(1,1fr);
   padding-bottom: 3rem;
+  padding-top: 1rem;
 }
 
  /*------ Footer -------*/
