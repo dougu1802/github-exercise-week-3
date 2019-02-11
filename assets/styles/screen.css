@@ -79,6 +79,14 @@ img {
   padding: 1rem;
  }
 
+ /*------ Portfolio -------*/
+
+ .gallery {
+  display: grid;
+  grid-gap: .25rem;
+  grid-template-columns: repeat(2,1fr)
+}
+
  /*------ Footer -------*/
 
  .bar {
@@ -116,6 +124,12 @@ img {
 .footer {
   max-width: 600px;
   padding-left: 3.90rem;
+}
+
+.gallery {
+  display: grid;
+  grid-gap: .25rem;
+  grid-template-columns: repeat(3,1fr)
 }
 
 
